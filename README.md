@@ -8,6 +8,7 @@ Desenvolvido em português.
 ### Instruções
 #### Uso local
 A presente versão funciona com o Langflow 1.4.1 localmente e com o Ollama 0.7.0.
+Fazer upload do ficheiro **DRAPE-bot.json**, no Langflow local, e usá-lo na aba **Playground**, no canto superior direito. Colocar **API keys** no Qdrant e no Groq, selecionar **llama-3.3-70b-versatile** como modelo a ser usado no Groq e, caso dê erro de limite de tokens, abrir um novo chat. 
 
 #### Instalação - usando Python
 Criar pasta com nome langflow e de seguida criar ambiente virtual.
