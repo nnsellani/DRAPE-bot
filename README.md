@@ -29,12 +29,12 @@ Com o comando **langflow run** inicia-se o langflow e depois é só aceder à po
 #### Variáveis
 Para acesso à base de dados criada será necessário uma **API key**.
 
-Para o chatbot funcionar, correr localmente o ficheiro **DRAPE-bot.json**, presente no repositório na pasta **Flows**. Mais uma vez, será necessário colocar a **API key** tanto do Qdrant como do Groq. 
+Para o chatbot funcionar, correr localmente no Langflow o ficheiro **DrapeBot.json**, presente no repositório na pasta **Flows**. Mais uma vez, será necessário colocar a **API key** tanto do Qdrant como do Groq. 
 
 Adicionalmente, para avaliar a performance, colocar na pasta do Langflow o script **.env**, com uma **API key** do Langsmith.
 
 #### Repositório
-Este repositório contém a pasta **Artigos**, com cada artigo do RGPD separado num ficheiro .txt. Contém também a pasta **Detalhes**, onde está presente o **spitbyarticles.py** (script usado para dividir o **regulamento.pdf** por artigos), o logótipo do projeto DRAPE (futuramente a ser implementado no chatbot) e o script **.env** com as variáveis de ambiente do Langsmith (componente extra, para avaliar a performance).
+Este repositório contém a pasta **Artigos**, com cada artigo do RGPD separado num ficheiro .txt. Contém também a pasta **Detalhes**, onde está presente o **spitbyarticles.py** (script usado para dividir o **regulamento.pdf** por artigos), o logótipo do projeto DRAPE (futuramente a ser implementado no chatbot) e o script **.env** com as variáveis de ambiente do Langsmith (componente extra, para avaliar a performance). Na pasta **Flows**, existe o **DrapeBot.py**, para futura implementação no site oficial. 
 
 ---
 
